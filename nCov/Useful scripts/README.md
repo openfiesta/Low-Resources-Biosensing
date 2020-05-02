@@ -16,7 +16,7 @@ You could send all your questions to franxi2953@gmail.com
 
 3) Run the script with jupyter lab.
 
-4) You will find the output file in the "seq" directory. This file is a multi-FASTA file, comprised by all the sequences named by the EPI_ISL_ reference.
+4) You will find the output file in the "seq" directory. This file is a multi-FASTA file, comprised by all the sequences named by the EPI_ISL_ reference. You could check all the metadata of the sequences, with this references here -> https://github.com/nextstrain/ncov/blob/master/data/metadata.tsv.
 
 
 
