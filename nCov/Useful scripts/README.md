@@ -40,7 +40,7 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 
 2) Run the script with jupyter lab.
 
-3) The output file ("nc_count.txt") will have a structure comprised by 6 columns, with the numbers of nucleotide position and the number of sequences with Adenine, Thymine, Guanine, Cytosine or a gap in this position.
+3) The output file ("nc_count.txt") will have a structure comprised by 6 columns, with the numbers of nucleotide position and the number of sequences with Adenine, Thymine, Guanine, Cytosine or a gap at this position.
 
 ##### Calculating variance per nucleotide
 
@@ -55,7 +55,7 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 
 
 
-### Next steps
+### Next steps (Help welcomed!)
 
 - Checking the scripts and improve their performance.
 - Creating an script which could give an score of different genome regions (like the ones targeted by primers) based in the variation saved in the "Variation.txt" file.
