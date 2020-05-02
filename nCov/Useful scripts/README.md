@@ -53,6 +53,14 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 - A "Variation.eps" with the graph representing each variation per nucleotide in the entire sequence in vectorial format.
 - A "Variation.txt" with a two columns file, one with the nucleotide position and the other with a number that represents how many sequences vary from the consensus.
 
+##### Calculating the consensus sequence
+
+1) Put the nc_count.txt file from the previous script in the same folder of the "SeqMaker.ipynb" script.
+
+2) Run the script with jupyter lab.
+
+3) The output file "consensusSeq.txt" have the FASTA of the consensus sequence.
+
 
 
 ### Next steps (Help welcomed!)
