@@ -57,11 +57,11 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 
 1) Put the nc_count.txt file from the previous script in the same folder of the "SeqMaker.ipynb" script.
 
-2) Adjust the script flag "INCLUDE_GAPS" on the top of the script in case you want your consensus sequence with or without gaps.
+2) Adjust the flag "INCLUDE_GAPS" on the top of the script in case you want your consensus sequence with gaps.
 
-2) Run the script with jupyter lab.
+3) Run the script with jupyter lab.
 
-3) The output file "consensusSeq.txt" have the FASTA of the consensus sequence.
+4) The output file "consensusSeq.txt" have the FASTA of the consensus sequence.
 
 
 
