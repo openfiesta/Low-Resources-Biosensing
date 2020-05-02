@@ -2,7 +2,7 @@
 
 Before starting: All the scripts have being wrote in Python for Jupyter lab (https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html).
 
-We are working with the GISAID nCov database (https://www.gisaid.org/) taking into account the high coverage sequences. At the date of the first trials this comprises 8124 sequences worldwide.
+We are working with the GISAID nCov database (https://www.gisaid.org/) taking into account only the high coverage sequences. At the date of the first trials this comprises 8124 sequences worldwide.
 
 You could send all your questions to franxi2953@gmail.com
 
