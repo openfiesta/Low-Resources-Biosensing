@@ -10,6 +10,15 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
+### Next steps (Help welcomed!)
+
+- Checking the scripts and improve their performance.
+- Creating an script which could give an score of different genome regions (like the ones targeted by primers) based in the variation saved in the "Variation.txt" file.
+- Perform this same analysis at different levels (regional, continental, global...) and compare the results.
+- Perform the clustering of different nCov strains based in the total genome variation between themselves.
+
+
+
 #### Sequences joiner
 
 1) Create a folder named "seq" in the same directory of the script "SeqJoiner.ipynb"
@@ -66,10 +75,3 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 4) The output file "consensusSeq.txt" have the FASTA of the consensus sequence.
 
 
-
-### Next steps (Help welcomed!)
-
-- Checking the scripts and improve their performance.
-- Creating an script which could give an score of different genome regions (like the ones targeted by primers) based in the variation saved in the "Variation.txt" file.
-- Perform this same analysis at different levels (regional, continental, global...) and compare the results.
-- Perform the clustering of different nCov strains based in the total genome variation between themselves.
