@@ -1,10 +1,16 @@
-### Mutation Analysis pipeline
+### 
 
 <img src="https://jogl.io/assets/imgs/logo.png" width="180px" height="250px" align="right">
 
-Before starting: All the scripts have being wrote in Python for Jupyter lab (https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html).
 
-We are working with the GISAID nCov database (https://www.gisaid.org/) taking into account only the high coverage sequences. At the date of the first trials this comprises 8124 sequences worldwide.
+
+### Introduction
+
+We have started this project aiming to develop a series of tools for analyzing the existing primers for doing the nCov diagnosis based in the presence of its RNA. 
+
+Specifically, the goal of following tools is to provide a simple way for analyzing the mutation rate in huge amounts of sequences data (>8k sequences). 
+
+Therefore, we could use this information to compare different primer sets (RT-PCR, RT-LAMP...) and predict which of them would work better, due to the more conserved nature of the regions their target along all the nCov strains worldwide.
 
 You could send all your questions to franxi2953@gmail.com
 
@@ -13,11 +19,16 @@ You could send all your questions to franxi2953@gmail.com
 ### Next steps (Help welcomed!)
 
 - Checking the scripts and improve their performance.
+
 - Creating an script which could give an score of different genome regions (like the ones targeted by primers) based in the variation saved in the "Variation.txt" file.
+
 - Perform this same analysis at different levels (regional, continental, global...) and compare the results.
+
 - Perform the clustering of different nCov strains based in the total genome variation between themselves.
 
+  
 
+### Mutation Analysis pipeline
 
 #### Sequences joiner
 
