@@ -131,17 +131,18 @@ b) Amplicon visualization; a 2 lines heat-map:
   - Turquoise: between 80 and 800 sequences vary from the consensus.
   - Yellow: more than 800 sequences vary from the consensus. 
 - The second line indicates the regions targeted by the different lamp primers:
-  1. F3 (5' - 3')
 
-  2. FIP, before the loop (5' - 3')
+  1-F3 (5' - 3')
 
-  3. FIP, after the loop (3' - 5')
+  2-FIP, before the loop (5' - 3')
 
-  4. BIP, after the loop (5' - 3')
+  3-FIP, after the loop (3' - 5')
 
-  5. BIP, before the loop (3' - 5')
+  4-BIP, after the loop (5' - 3')
 
-  6. B3, (3' - 5')
+  5-BIP, before the loop (3' - 5')
+
+  6-B3, (3' - 5')
 
 
 
