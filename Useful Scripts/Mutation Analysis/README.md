@@ -116,6 +116,8 @@ The output of the script is the following screen:
 
 ![lampoutput](images/lampoutput.jpg)
 
+**Legend**:
+
 a) Primers alignment with consensus sequence (Using biopython pairwise2 package)
 
 **[Note]**: Here (marked with a small red rectangle) you could see how the BIP primer target a region which, in the computed consensus sequence, have a different nucleotide that the one included in the primer.
