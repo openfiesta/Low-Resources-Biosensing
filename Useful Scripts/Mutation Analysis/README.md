@@ -127,9 +127,14 @@ b) Amplicon visualization; a 2 lines heat-map:
 
 - The first line include a heat-map of the variation of each nucleotide. By default the color is normalized with the 8k sequence nCov analysis and comprises 3 ranges:
   - Dark Blue: less than 10 sequences vary from the consensus.
+  
   - Light blue: between 10 and 80 sequences vary from the consensus.
+  
   - Turquoise: between 80 and 800 sequences vary from the consensus.
+  
   - Yellow: more than 800 sequences vary from the consensus. 
+  
+    **[Note]**Anyone could tune up this range numbers to their own sequences changing the variables "**range1-3**" in the top of the script.
 - The second line indicates the regions targeted by the different lamp primers:
 
   1-F3 (5' - 3')
