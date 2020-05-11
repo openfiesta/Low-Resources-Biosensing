@@ -6,17 +6,7 @@
 
 ### Table of Contents
 
-- Introduction
-- Next steps (Help welcomed!)
-- Mutation analysis pipeline
-  - Sequences joiner
-  - Multiple Sequence Alignment
-  - Mutation Analysis
-    - Parsing the .aln file
-    - Calculating variance per nucleotide
-    - Calculating the consensus sequence
-- Primer analysis
-  - LAMP visual primer analysis
+[TOC]
 
 
 
@@ -124,7 +114,7 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 
 The output of the script is the following screen:
 
-![lampoutput]\images\lampoutput.jpg)
+![lampoutput]images/lampoutput.jpg)
 
 a) Primers alignment with consensus sequence (Using biopython pairwise2 package)
 
