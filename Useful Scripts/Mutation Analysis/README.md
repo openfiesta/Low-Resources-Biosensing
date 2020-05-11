@@ -129,7 +129,7 @@ b) Amplicon visualization; a 2 lines heat-map:
   - Light blue: between 10 and 80 sequences vary from the consensus.
   - Turquoise: between 80 and 800 sequences vary from the consensus.
   - Yellow: more than 800 sequences vary from the consensus. 
-- The second line include the regions targeted by the different primers:
+- The second line indicates the regions targeted by the different lamp primers:
   1. F3 (5' - 3')
   2. FIP, before the loop (5' - 3')
   3. FIP, after the loop (3' - 5')
