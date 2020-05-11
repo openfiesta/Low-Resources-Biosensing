@@ -114,7 +114,7 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 
 The output of the script is the following screen:
 
-![lampoutput](/images/lampoutput.jpg)
+![lampoutput](/Useful Scripts/Mutation Analysis/images/lampoutput.jpg)
 
 a) Primers alignment with consensus sequence (Using biopython pairwise2 package)
 
