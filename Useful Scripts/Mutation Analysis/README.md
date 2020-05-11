@@ -26,11 +26,12 @@ You could send all your questions to franxi2953@gmail.com
 
 - Checking the scripts and improve their performance.
 
-- Creating an script which could give an score of different genome regions (like the ones targeted by primers) based in the variation saved in the "Variation.txt" file.
 
 - Perform this same analysis at different levels (regional, continental, global...) and compare the results.
 
 - Perform the clustering of different nCov strains based in the total genome variation between themselves.
+
+- ...
 
   
 
@@ -131,10 +132,15 @@ b) Amplicon visualization; a 2 lines heat-map:
   - Yellow: more than 800 sequences vary from the consensus. 
 - The second line indicates the regions targeted by the different lamp primers:
   1. F3 (5' - 3')
+
   2. FIP, before the loop (5' - 3')
+
   3. FIP, after the loop (3' - 5')
+
   4. BIP, after the loop (5' - 3')
+
   5. BIP, before the loop (3' - 5')
+
   6. B3, (3' - 5')
 
 
