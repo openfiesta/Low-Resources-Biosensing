@@ -6,7 +6,20 @@
 
 ### Table of Contents
 
-[TOC]
+- Introduction
+- Next steps (Help welcomed!)
+- Mutation Analysis pipeline
+  - Sequences joiner
+  - Multiple Sequence Alignment
+    - Parsing the .aln file
+    - Computing variance per nucleotide
+    - Computing the consensus sequence
+- Primer analysis
+  - LAMP visual primer analysis
+    - Performing the analysis
+    - Analysis of the results
+
+
 
 
 
