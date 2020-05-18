@@ -126,43 +126,14 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 
 ##### Analysis of the results
 
-The output of the script is the following screen:
+The graphical jupyter output of the script include the primer alignment and a heatmap indicating the region's variation with the areas where the different primers align.
 
-![lampoutput](images/lampoutput.jpg)
-
-**Legend**:
-
-a) Primers alignment with consensus sequence (Using biopython pairwise2 package)
-
-**[Note]**: Here (marked with a small red rectangle) you could see how the BIP primer target a region which, in the computed consensus sequence, have a different nucleotide that the one included in the primer.
-
-b) Amplicon visualization; a 2 lines heat-map:
-
-- The first line include a heat-map of the variation of each nucleotide. By default the color is normalized with the 8k sequence nCov analysis and comprises 3 ranges:
-  - Dark Blue: less than 10 sequences vary from the consensus.
-  
-  - Light blue: between 10 and 80 sequences vary from the consensus.
-  
-  - Turquoise: between 80 and 800 sequences vary from the consensus.
-  
-  - Yellow: more than 800 sequences vary from the consensus. 
-  
-    **[Note]**Anyone could tune up this range numbers to their own sequences changing the variables "**range1-3**" in the top of the script.
-- The second line indicates the regions targeted by the different lamp primers:
-
-  1-F3 (5' - 3')
-
-  2-FIP, before the loop (5' - 3')
-
-  3-FIP, after the loop (3' - 5')
-
-  4-BIP, after the loop (5' - 3')
-
-  5-BIP, before the loop (3' - 5')
-
-  6-B3, (3' - 5')
+There is also a second output that could be found in a temporal folder created inside the "LampPrimers" directory. This result includes:
 
 
+
+- An "output.txt" file, which includes the sequence of all the primers with the position of the primers' nucleotides that are targeting highly mutated regions (With the respective nucleotide count of the targeted nucleotides).
+- A .png file storing the heatmap.
 
 
 
