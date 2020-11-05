@@ -118,7 +118,7 @@ The output will be a huge alignment (.aln) file. You could visualize this data w
 
 1. Create a file named "primers.txt" in the same folder than the "LampPrimerTester.ipynb" script. This file should contain the FASTA sequence of the primers, with the names "F3", "B3", "LB", "LF", FIP" and "BIP". And example of the "primers.txt" file structure could be found in the examples folder.
 
-2. Put the "consensusSeq.txt" and the "Variation.txt" files (see previous chapter for the scripts that generate this files) in the same folder than the "LampPrimerTester.ipynb" script.
+2. Put the "consensusSeq.txt" and the "Variation.txt" files (see previous chapter for the scripts that generate this files) in the same folder than the "LampPrimerTester.ipynb" script. **NOTE:** The consensus sequence must be done **including gaps**.
 
 3. Run the script.
 
