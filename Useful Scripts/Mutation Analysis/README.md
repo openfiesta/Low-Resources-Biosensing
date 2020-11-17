@@ -53,11 +53,11 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
-<b>degeneratedNucleotides</b> Counting other nucleotides other tha A/T/G/C/- ?
+- <b>degeneratedNucleotides</b> Counting other nucleotides other tha A/T/G/C/- ?
 
-<b>f_align</b> Location of .aln file **in Clustal format**. For example, output of MAFFT online tool (https://mafft.cbrc.jp/alignment/software/closelyrelatedviralgenomes.html). 
+- <b>f_align</b> Location of .aln file **in Clustal format**. For example, output of MAFFT online tool (https://mafft.cbrc.jp/alignment/software/closelyrelatedviralgenomes.html). 
 
-<b>f_out</b> Output file location. The output file will have a structure comprised by 6 columns, with the numbers of nucleotide position and the number of sequences with Adenine, Thymine, Guanine, Cytosine or a gap at this position.
+- <b>f_out</b> Output file location. The output file will have a structure comprised by 6 columns, with the numbers of nucleotide position and the number of sequences with Adenine, Thymine, Guanine, Cytosine or a gap at this position.
 
 
 
@@ -67,11 +67,11 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
-<b>countGaps</b> Counting "-" for computing deviation?
+- <b>countGaps</b> Counting "-" for computing deviation?
+- <b>f_count</b> Location of the AlignmentParser fuction output.
 
-<b>f_count</b> Location of the AlignmentParser fuction output.
+- <b>f_out</b> Output location. The output will be a two columns file, one with the nucleotide position and the other with number of sequences that vary from the consensus.
 
-<b>f_out</b> Output location. The output will be a two columns file, one with the nucleotide position and the other with number of sequences that vary from the consensus.
 
 
 
@@ -81,13 +81,14 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
-**INCLUDE_GAPS** Making the consensus sequence with gaps included? 
+- **INCLUDE_GAPS** Making the consensus sequence with gaps included? 
 
-**f_count** Location of the AlignmentParser fuction output.
+- **f_count** Location of the AlignmentParser fuction output.
 
-**f_out**  Output location. The output file "consensusSeq.txt" have the FASTA of the consensus sequence.
+- **f_out**  Output location. The output file "consensusSeq.txt" have the FASTA of the consensus sequence.
 
- 
+  
+
 
 
 
@@ -95,19 +96,19 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
-**f_consensus** Location of the consensus sequence file (Output of the ConsensusSeq function). **This sequence must include gaps**.
+- **f_consensus** Location of the consensus sequence file (Output of the ConsensusSeq function). **This sequence must include gaps**.
 
-**f_primers** Primers file. This file should contain the FASTA sequence of the primers, with the names "F3", "B3", "LB", "LF", FIP" and "BIP". And example of the "primers.txt" file structure could be found in the examples folder.
+- **f_primers** Primers file. This file should contain the FASTA sequence of the primers, with the names "F3", "B3", "LB", "LF", FIP" and "BIP". And example of the "primers.txt" file structure could be found in the examples folder.
 
-**f_variation** Location of the DeviationCalc function output.
+- **f_variation** Location of the DeviationCalc function output.
 
-**f_count** Location of the AlignmentParser function output.
+- **f_count** Location of the AlignmentParser function output.
 
-**f_name** Location of the output folder. If the folder doesn't exist it will be created.
+- **f_name** Location of the output folder. If the folder doesn't exist it will be created.
 
-**ranges** A vector comprising three numbers that indicates the three ranges of number of mutated sequences for computing color intensities in the resulting heatmap.
+- **ranges** A vector comprising three numbers that indicates the three ranges of number of mutated sequences for computing color intensities in the resulting heatmap.
 
-**mutation_threshold** The limit that indicates how many sequences need to vary from the consensus to start the mutation analysis.
+- **mutation_threshold** The limit that indicates how many sequences need to vary from the consensus to start the mutation analysis.
 
 
 
