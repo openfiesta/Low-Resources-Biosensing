@@ -19,7 +19,7 @@
 
 We have started this project aiming to develop a series of tools for analyzing the existing primers for nCov diagnosis. 
 
-Specifically, the goal of the following library is to provide a simple way for analyzing the mutation rate in huge amounts of its sequences data (>8k sequences). 
+Specifically, the goal of the following library is to provide a simple framework for analyzing the mutation rate in huge amounts of its sequences data (>8k sequences). 
 
 The objective is to use this information to compare different primer sets (RT-PCR, RT-LAMP...) and predict which of them would work better, regarding the conservation of the targeted regions.
 
