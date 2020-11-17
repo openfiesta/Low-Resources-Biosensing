@@ -17,11 +17,11 @@
 
 ### Introduction
 
-We have started this project aiming to develop a series of tools for analyzing the existing primers for doing the nCov diagnosis based in the presence of its RNA. 
+We have started this project aiming to develop a series of tools for analyzing the existing primers for the nCov diagnosis. 
 
-Specifically, the goal of the following library is to provide a simple way for analyzing the mutation rate in huge amounts of sequences data (>8k sequences). 
+Specifically, the goal of the following library is to provide a simple way for analyzing the mutation rate in huge amounts of its sequences data (>8k sequences). 
 
-The objective is to use this information to compare different primer sets (RT-PCR, RT-LAMP...) and predict which of them would work better, due to the more conserved nature of the regions their target along all the nCov strains worldwide.
+The objective is to use this information to compare different primer sets (RT-PCR, RT-LAMP...) and predict which of them would work better, regarding the conservation of the targeted regions.
 
 In the "OLD" folder you could find the beta version of the library functions, when they were just Jupyter Lab scripts.
 
@@ -103,7 +103,6 @@ You could send all your questions to franxi2953@gmail.com
 - **f_variation** Location of the DeviationCalc function output.
 
 - **f_count** Location of the AlignmentParser function output.
-
 - **f_name** Location of the output folder. If the folder doesn't exist it will be created.
 
 - **ranges** A vector comprising three numbers that indicates the three ranges of number of mutated sequences for computing color intensities in the resulting heatmap.
