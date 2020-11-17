@@ -17,7 +17,7 @@
 
 ### Introduction
 
-We have started this project aiming to develop a series of tools for analyzing the existing primers for the nCov diagnosis. 
+We have started this project aiming to develop a series of tools for analyzing the existing primers for nCov diagnosis. 
 
 Specifically, the goal of the following library is to provide a simple way for analyzing the mutation rate in huge amounts of its sequences data (>8k sequences). 
 
