@@ -1,0 +1,9 @@
+setup.py
+lrbs_mutation_analysis/__init__.py
+lrbs_mutation_analysis/utilities.py
+lrbs_mutation_analysis.egg-info/PKG-INFO
+lrbs_mutation_analysis.egg-info/SOURCES.txt
+lrbs_mutation_analysis.egg-info/dependency_links.txt
+lrbs_mutation_analysis.egg-info/not-zip-safe
+lrbs_mutation_analysis.egg-info/requires.txt
+lrbs_mutation_analysis.egg-info/top_level.txt
