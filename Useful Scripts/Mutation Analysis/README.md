@@ -49,7 +49,7 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
-##### AlignmentParser (degeneratedNucleotides = False, f_align = "align.aln", f_out="nc_count.txt")
+#### AlignmentParser (degeneratedNucleotides = False, f_align = "align.aln", f_out="nc_count.txt")
 
 
 
@@ -63,7 +63,7 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
-##### DeviationCalc (countGaps = True, f_count="nc_count.txt", f_out="Variation.txt")
+#### DeviationCalc (countGaps = True, f_count="nc_count.txt", f_out="Variation.txt")
 
 
 
@@ -77,7 +77,7 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
-**ConsensusSeq (INCLUDE_GAPS = True, f_count="nc_count.txt", f_out="consensusSeq.txt")**
+#### **ConsensusSeq (INCLUDE_GAPS = True, f_count="nc_count.txt", f_out="consensusSeq.txt")**
 
 
 
@@ -91,7 +91,7 @@ You could send all your questions to franxi2953@gmail.com
 
 
 
-**PrimerTest (f_consensus="consensusSeq.txt", f_primers="primers.txt", f_variation="Variation.txt", f_count="nc_count.txt", f_name = int(round(time.time() * 1000)), ranges=[50,500,2500], mutation_threshold=50)**
+#### **PrimerTest (f_consensus="consensusSeq.txt", f_primers="primers.txt", f_variation="Variation.txt", f_count="nc_count.txt", f_name = int(round(time.time() * 1000)), ranges=[50,500,2500], mutation_threshold=50)**
 
 
 
