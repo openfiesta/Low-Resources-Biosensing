@@ -55,7 +55,7 @@ You could send all your questions to franxi2953@gmail.com
 
 - <b>degeneratedNucleotides</b> Counting other nucleotides other tha A/T/G/C/- ?
 
-- <b>f_align</b> Location of .aln file **in Clustal format**. For example, output of MAFFT online tool (https://mafft.cbrc.jp/alignment/software/closelyrelatedviralgenomes.html). 
+- <b>f_align</b> Location of the .aln file **in Clustal format**. For example, output of MAFFT online tool (https://mafft.cbrc.jp/alignment/software/closelyrelatedviralgenomes.html). 
 
 - <b>f_out</b> Output file location. The output file will have a structure comprised by 6 columns, with the numbers of nucleotide position and the number of sequences with Adenine, Thymine, Guanine, Cytosine or a gap at this position.
 
