@@ -6,7 +6,8 @@
 int read_temperature (int sensor_number, Adafruit_ADS1115 temp_array){
   //Gain is expected to be 1
 
-  int TH, TH_voltage, TH_resistance;
+  unsigned int TH;
+  float TH_voltage, TH_resistance;
 
   if (sensor_number < 0 && sensor_number > 3)
     return -1;
@@ -16,9 +17,14 @@ int read_temperature (int sensor_number, Adafruit_ADS1115 temp_array){
   if (TH > MAX_ADC_VALUE && TH < 0)
     return -2;
 
-  TH_voltage = map(TH,0,MAX_ADC_VALUE,0,MAX_ADC_VOLTAGE);
+  TH_voltage = float(map(TH,0,MAX_ADC_VALUE,0,MAX_ADC_VOLTAGE))/10000;
+//  Serial.print("TH_voltage:");
+//  Serial.println(TH_voltage);
 
-  TH_resistance = (5-TH_voltage)*8200%TH_voltage;
+  TH_resistance = ((5.01-TH_voltage)*8.200)/TH_voltage;
+  Serial.print(TH_voltage, 4);
+  Serial.print(",");
+  Serial.println(TH_resistance, 4);
 //  
 //  for (int i,previous=0; i<NUMTEMPS; i++)
 //  {

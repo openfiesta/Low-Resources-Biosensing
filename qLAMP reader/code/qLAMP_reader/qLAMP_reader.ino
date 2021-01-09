@@ -12,6 +12,6 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(read_temperature (2, temperature_array));
+  read_temperature (1, temperature_array);
   delay(1000);
 }
