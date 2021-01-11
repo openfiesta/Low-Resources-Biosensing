@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(9600);
 
   
-  temperature_array.setGain(GAIN_ONE);    //+/- 0.256V  1 bit = 0.0078125mV 
+  temperature_array.setGain(GAIN_ONE);    //+/-4.096V
   temperature_array.begin();
 }
 
