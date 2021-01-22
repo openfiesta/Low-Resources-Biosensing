@@ -4,10 +4,9 @@
 #include "Arduino.h"
 #include <Adafruit_ADS1015.h>
 
-#define MAX_ADC_VALUE 65534
-#define MAX_ADC_VOLTAGE 409600
-#define AUX_RESISTOR 9.68
+#define MAX_ADC_VALUE 65535
+#define AUX_RESISTOR 330
 
-int read_temperature (int sensor_number, Adafruit_ADS1115 temp_array);
+float read_temperature (int sensor_number, Adafruit_ADS1115 temp_array);
 
 #endif
