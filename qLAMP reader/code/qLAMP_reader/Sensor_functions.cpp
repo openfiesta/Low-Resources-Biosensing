@@ -1,6 +1,7 @@
 #include "Arduino.h"
 #include "Sensor_functions.h"
 #include "temp_table.h"
+#include <math.h>
 
 
 float read_temperature (int sensor_number, Adafruit_ADS1115 temp_array){
@@ -38,20 +39,7 @@ float read_temperature (int sensor_number, Adafruit_ADS1115 temp_array){
 //  Serial.print(",");
   
 
-  temperature = 0;
-
-  for (int i = 0; i<NUMTEMPS; i++)
-  { 
-    if ( abs((temptable[i][1]) - TH_resistance) < abs((temptable[i-1][1]) - TH_resistance))
-    {
-      temperature = temptable[i][0];
-    }
-  }
-
-  if (TH_resistance > temptable[(int)temperature][1])
-    temperature = temperature + (float)((TH_resistance - (temptable[(int)temperature][1]) ) * (temptable[(int)temperature+1][1] - temptable[(int)temperature][1]) );
-  else
-    temperature = temperature + (float)((TH_resistance - (temptable[(int)temperature-1][1]) ) * (temptable[(int)temperature][1] - temptable[(int)temperature-1][1]) );
+  temperature = log((TH_resistance - 0.5261)/31.4839)/-0.04758
 
   return temperature;
 }
