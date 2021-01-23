@@ -21,25 +21,27 @@ float read_temperature (int sensor_number, Adafruit_ADS1115 temp_array){
   if (TH >= MAX_ADC_VALUE || TH < 0)
     return -2;
 
-  TH_voltage = 0.000015625 * TH;
-  TH_voltage_reference = 0.000015625 * TH_REF;
+  TH_voltage = 0.000125 * TH;
+  TH_voltage_reference = 0.000125 * TH_REF;
   
 //  Serial.print(TH);
 //  Serial.print(",");
 //  Serial.println(TH_REF);
 
-  TH_resistance = (TH_voltage_reference/TH_voltage) * AUX_RESISTOR;
+  TH_resistance = ((2 * AUX_RESISTOR * TH_voltage_reference) / TH_voltage) - AUX_RESISTOR; 
   
 
-//  Serial.print(TH_voltage, 8);
-//  Serial.print(",");
-//  Serial.print(TH_voltage_reference, 8);
-//  Serial.print(",");
-//  Serial.print(TH_resistance, 4);
-//  Serial.print(",");
+  Serial.print(TH_voltage, 8);
+  Serial.print(",");
+  Serial.print(TH_voltage_reference, 8);
+  Serial.print(",");
+  Serial.print(TH_voltage_reference/TH_voltage, 8);
+  Serial.print(",");
+  Serial.print(TH_resistance, 4);
+  Serial.print(",");
   
 
-  temperature = log((TH_resistance - 0.5261)/31.4839)/-0.04758
+  temperature = log((TH_resistance - 0.5261)/31.4839)/-0.04758;
 
   return temperature;
 }
