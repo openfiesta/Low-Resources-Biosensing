@@ -7,6 +7,25 @@
 #define MAX_ADC_VALUE 65535
 #define AUX_RESISTOR 8.2
 
-float read_temperature (int sensor_number, Adafruit_ADS1115 temp_array);
+class io_status {
+  private:
+  //input
+    float temperature[3];
+    float PD[8];
+    Adafruit_ADS1115 temperature_array {0x4B};
+
+    float read_temperature(int sensor_number);
+  
+  
+  //output
+    int PWM_power;
+    byte LED;
+    
+
+  public:
+    io_status();
+    void update_temperature();
+    
+};
 
 #endif
